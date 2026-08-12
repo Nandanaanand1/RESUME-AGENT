@@ -1,22 +1,28 @@
-# AI Resume Screening Agent
+AI Resume Agent
 
-An AI-powered agent that automates the first round of resume screening using Groq's Llama-3.1 model.
+An AI-powered resume assistant that uses the Groq API to analyze and generate useful resume-related content.
 
-# What it Does
-Instead of manually reading 100s of resumes, this agent:
-1. Takes a Job Description as input
-2. Takes multiple Resumes as input  
-3. Uses Groq AI to compare and give each candidate a Score out of 100 + 3 reasons
-4. Helps HR shortlist candidates 10x faster
+Features
 
-# Tech Stack
-- **Language**: Python 3
-- **AI Model**: Llama-3.1-8b-instant via Groq API
-- **Libraries**: groq
+1. AI-powered resume assistance
+2. Resume analysis and suggestions
+3. Generates relevant responses using an LLM
+4. Simple Python-based implementation
+5. Uses Groq for fast AI inference
 
-# Setup & Installation
+ Technologies Used
 
-1.  **Clone the repo**
-    ```bash
-    git clone <your-repo-link>
-    cd ai-resume-screener
+1.Python
+2.Groq API
+3.python-dotenv
+4.Large Language Models (LLMs)
+
+ Project Structure
+
+
+RESUME-AGENT/
+│
+├── agent.py
+├── .env
+├── .gitignore
+└── README.md
