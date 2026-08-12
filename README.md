@@ -1,8 +1,8 @@
-AI Resume Agent
+AI-RESUME-AGENT:
 
 An AI-powered resume assistant that uses the Groq API to analyze and generate useful resume-related content.
 
-Features
+FEATURES:
 
 1. AI-powered resume assistance
 2. Resume analysis and suggestions
@@ -10,19 +10,17 @@ Features
 4. Simple Python-based implementation
 5. Uses Groq for fast AI inference
 
- Technologies Used
+TECHNOLOGIES USED:
 
 1.Python
 2.Groq API
 3.python-dotenv
 4.Large Language Models (LLMs)
 
- Project Structure
-
+PROJECT-STRUCTURE:
 
 RESUME-AGENT/
-│
-├── agent.py
-├── .env
-├── .gitignore
-└── README.md
+ 1.agent.py
+ 2..env
+ 3. .gitignore
+ 4.README.md
